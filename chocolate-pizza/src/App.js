@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './header.js';
+import Footer from './footer.js';
+import Main from './main.js';
 
 function App() {
   return (
@@ -17,10 +20,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
 }
 
-export default App;
+// export default App;
+
