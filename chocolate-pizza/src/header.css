@@ -1,0 +1,30 @@
+.logo {
+    float: left;
+}
+.logo-text {
+    float: left;
+}
+.logo-text {
+    float: left;
+}
+.logo img {
+    float: left;
+}
+.logo-text  h1 {
+    font-family: cursive;
+    line-height: 0em;
+    text-align: left; 
+}
+header h1 {
+    font-family: cursive;
+    line-height: 0em;   
+}
+.top-side-logo{
+    float: right;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+  }
