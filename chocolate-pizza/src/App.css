@@ -2,37 +2,77 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  max-width: 940px;
+  margin-left: 20px;
+  margin-right: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading-top {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: initial;
+  width: 900px;
+ 
+}
+
+
+.delicious-box {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.delicious-box img {
+  height: 45px;
+  width: 45px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+#chocolate-pizza {
+  
+}
+.print-div {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+
+}
+
+.print-div  img {
+  height: 12px;
+  width: 10px;
+}
+
+
+
+header h6 {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  line-height: 0em;
+}
+
+.chocolate-pizza h1 {
+  display: block;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.chocolate-pizza h6 {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 0em;
+
+}
+
+.chocolate-pizza h2 {
+  font-family: 'Times New Roman', Times, serif;
+  
 }
